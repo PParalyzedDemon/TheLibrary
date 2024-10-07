@@ -1,0 +1,92 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.book-view-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Book Cover Section */
+.book-cover {
+    flex: 1;
+    text-align: center;
+}
+
+.book-cover img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Book Information Section */
+.book-info {
+    flex: 2;
+    padding: 20px;
+}
+
+.book-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.story-summary {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Button Container for two buttons */
+.button-container {
+    display: flex;
+    gap: 15px;
+}
+
+/* Primary Button (Start Reading) */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Secondary Button (Visit Original Site) */
+.secondary-btn {
+    background-color: #6c757d;
+}
+
+.secondary-btn:hover {
+    background-color: #5a6268;
+}
+
+.back-btn {
+    background-color: #6c757d;
+	
+}
+
+.back-btn:hover {
+    background-color: #5a6268;
+}
